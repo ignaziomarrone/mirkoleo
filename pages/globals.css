@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif
+}
