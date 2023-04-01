@@ -23,8 +23,8 @@ const handleClick = () => {
             
             <div className="flex gap-4 text-xl">
                 <Link href='/'><h1>Home</h1></Link>
-                <Link href='/blog/page' onClick={handleClick}><h1>Portfolio</h1></Link>
-                <Link href='/contacts/page'><h1>Contatti</h1></Link>
+                <Link href='/portfolio/page' onClick={handleClick}><h1>Portfolio</h1></Link>
+                <Link href='/contacts/page'><h1>Chi sono</h1></Link>
             </div>
         </div>
 
@@ -39,9 +39,9 @@ const handleClick = () => {
             <div className={click === 'open' ? 'flex h-screen w-screen text-center justify-center gap-10 text-5xl flex-col opacity-100 transition-all duration-300' : 'opacity-0 hidden'}>
                 <Link href='/' onClick={handleClick}><h1>Home</h1></Link>
                 
-                <Link href='/blog/page' onClick={handleClick}><h1>Portfolio</h1></Link>
+                <Link href='/portfolio/page' onClick={handleClick}><h1>Portfolio</h1></Link>
                 
-                <Link href='/contacts/page' onClick={handleClick}><h1>Contatti</h1></Link>
+                <Link href='/contacts/page' onClick={handleClick}><h1>Chi sono</h1></Link>
             </div>
         </div>
     </div>

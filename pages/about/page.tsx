@@ -26,7 +26,7 @@ const url = 'https://instagram.com/mirkoleo_fotografo?igshid=YmMyMTA2M2Y='
          <div className=" col-span-1 row-span-1 rounded-md bg-gradient-to-br from-stone-700 to-stone-900 border-2 border-black flex flex-col text-white justify-evenly"> 
             <Link href='/contacts/page'>
                 <div className='text-center text-3xl lg:text-5xl'>
-                    <h1>CHI SONO,<br />CONTATTI</h1>
+                    <h1>CHI SONO</h1>
                     
                     
                 </div>
@@ -47,7 +47,7 @@ const url = 'https://instagram.com/mirkoleo_fotografo?igshid=YmMyMTA2M2Y='
             <div className=" col-span-1 row-span-1 rounded-md bg-gradient-to-br from-stone-700 to-stone-900 border-2 border-black flex flex-col text-white justify-evenly"> 
                 <Link href='/contacts/page'>
                     <div className='text-center text-3xl lg:text-5xl'>
-                        <h1>CHI SONO,<br />CONTATTI</h1>
+                        <h1>CHI SONO</h1>
                         
                         
                     </div>
